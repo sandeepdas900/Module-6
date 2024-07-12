@@ -5,6 +5,10 @@ import os
 import sys
 import pickle
 import pandas as pd
+import warnings
+warnings.filterwarnings("ignore")
+
+
 
 options = {
     'client_kwargs': {
